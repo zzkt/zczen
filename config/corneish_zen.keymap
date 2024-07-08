@@ -31,7 +31,7 @@
         };
 
         numeric {
-            label = "NUMBER";
+            label = "numeric";
 
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
@@ -70,6 +70,15 @@
 &kp LC(A)  &kp LEFT_ARROW     &kp DOWN      &kp RIGHT             &kp LC(E)  &trans    &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN  &kp RIGHT  &trans  &trans
 &trans     &kp LA(LESS_THAN)  &kp LC(V)     &kp LA(GREATER_THAN)  &trans     &trans    &trans          &trans        &trans    &trans     &trans  &trans
                                             &trans                &trans     &trans    &trans          &trans        &trans
+            >;
+        };
+
+        HYPER {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
